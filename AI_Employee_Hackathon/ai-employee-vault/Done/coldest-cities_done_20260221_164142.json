@@ -1,0 +1,84 @@
+{
+  "cold_countries": [
+    {
+      "country": "Russia",
+      "coldest_city": {
+        "name": "Oymyakon",
+        "record_low_celsius": -67.7,
+        "record_low_fahrenheit": -89.9
+      }
+    },
+    {
+      "country": "Canada",
+      "coldest_city": {
+        "name": "Eureka",
+        "record_low_celsius": -55.3,
+        "record_low_fahrenheit": -67.5
+      }
+    },
+    {
+      "country": "United States",
+      "coldest_city": {
+        "name": "Utqiagvik (Barrow), Alaska",
+        "record_low_celsius": -49,
+        "record_low_fahrenheit": -56
+      }
+    },
+    {
+      "country": "Kazakhstan",
+      "coldest_city": {
+        "name": "Astana",
+        "record_low_celsius": -51.6,
+        "record_low_fahrenheit": -60.9
+      }
+    },
+    {
+      "country": "Mongolia",
+      "coldest_city": {
+        "name": "Ulaanbaatar",
+        "record_low_celsius": -49,
+        "record_low_fahrenheit": -56.2
+      }
+    },
+    {
+      "country": "Norway",
+      "coldest_city": {
+        "name": "Karasjok",
+        "record_low_celsius": -51.4,
+        "record_low_fahrenheit": -60.5
+      }
+    },
+    {
+      "country": "Finland",
+      "coldest_city": {
+        "name": "Kittilä",
+        "record_low_celsius": -51.5,
+        "record_low_fahrenheit": -60.7
+      }
+    },
+    {
+      "country": "Sweden",
+      "coldest_city": {
+        "name": "Jokkmokk",
+        "record_low_celsius": -52.6,
+        "record_low_fahrenheit": -62.7
+      }
+    },
+    {
+      "country": "Iceland",
+      "coldest_city": {
+        "name": "Grímsstaðir",
+        "record_low_celsius": -38,
+        "record_low_fahrenheit": -36.4
+      }
+    },
+    {
+      "country": "Greenland",
+      "coldest_city": {
+        "name": "Summit Camp",
+        "record_low_celsius": -63,
+        "record_low_fahrenheit": -81.4
+      }
+    }
+  ]
+}
