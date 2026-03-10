@@ -1,0 +1,1390 @@
+{
+  "date": "2026-03-09",
+  "entries": [
+    {
+      "timestamp": "2026-03-09T07:55:24Z",
+      "correlation_id": "690abfeb-075f-4c86-a59d-c09cb92cb877",
+      "actor": "orchestrator",
+      "action_type": "orchestrator_start",
+      "target": "orchestrator",
+      "result": "success",
+      "parameters": {
+        "details": "DEV_MODE=False",
+        "dev_mode": false
+      }
+    },
+    {
+      "timestamp": "2026-03-09T07:55:28Z",
+      "actor": "briefing-generator",
+      "action_type": "briefing_generated",
+      "target": "vault/Briefings/",
+      "result": "success",
+      "details": "Period: 2026-03-03 to 2026-03-09"
+    },
+    {
+      "timestamp": "2026-03-09T07:55:33Z",
+      "correlation_id": "4d14bd68-bd98-4aa8-8b7a-224f42b0c73e",
+      "actor": "gmail_watcher",
+      "action_type": "email_processed",
+      "target": "email-these-notion-templates-might-change-how-you-work-20260309T075533.md",
+      "result": "success",
+      "parameters": {
+        "message_id": "19cc9468ef40a5ed",
+        "subject": "These Notion templates might change how you work",
+        "priority": "low",
+        "dry_run": false,
+        "dev_mode": false
+      }
+    },
+    {
+      "timestamp": "2026-03-09T07:55:33Z",
+      "correlation_id": "37d88228-3b99-44f4-8c42-0194af5e1bce",
+      "actor": "gmail_watcher",
+      "action_type": "email_processed",
+      "target": "email-soleyman-shahir-posted-3-students-hired-in-2-weeks-20260309T075533.md",
+      "result": "success",
+      "parameters": {
+        "message_id": "19cc4e23e0b2b802",
+        "subject": "Soleyman Shahir posted \"3 students HIRED in 2 weeks!!!\"",
+        "priority": "low",
+        "dry_run": false,
+        "dev_mode": false
+      }
+    },
+    {
+      "timestamp": "2026-03-09T07:55:33Z",
+      "correlation_id": "6bf4d312-fc89-4057-93d2-d993e3247ac7",
+      "actor": "gmail_watcher",
+      "action_type": "email_processed",
+      "target": "email-designs-we-re-loving-this-week-20260309T075533.md",
+      "result": "success",
+      "parameters": {
+        "message_id": "19cbf5b0c55bfbf2",
+        "subject": "❤️ Designs We're Loving This Week!",
+        "priority": "low",
+        "dry_run": false,
+        "dev_mode": false
+      }
+    },
+    {
+      "timestamp": "2026-03-09T07:55:33Z",
+      "correlation_id": "0871e96f-1ace-4876-a3cc-b724494c4adc",
+      "actor": "gmail_watcher",
+      "action_type": "email_processed",
+      "target": "email-security-alert-20260309T075533.md",
+      "result": "success",
+      "parameters": {
+        "message_id": "199aa3e99382dd44",
+        "subject": "Security alert",
+        "priority": "low",
+        "dry_run": false,
+        "dev_mode": false
+      }
+    },
+    {
+      "timestamp": "2026-03-09T07:55:33Z",
+      "correlation_id": "06deb5dd-bbc1-4f02-ad35-ae05392f0199",
+      "actor": "gmail_watcher",
+      "action_type": "email_processed",
+      "target": "email-important-confirm-your-freelancer-account-20260309T075533.md",
+      "result": "success",
+      "parameters": {
+        "message_id": "199815abd250f4c1",
+        "subject": "Important! Confirm your Freelancer Account",
+        "priority": "low",
+        "dry_run": false,
+        "dev_mode": false
+      }
+    },
+    {
+      "timestamp": "2026-03-09T08:00:34Z",
+      "correlation_id": "2d30e19a-67dc-45fc-8183-f8382305292d",
+      "actor": "watchdog",
+      "action_type": "watcher_stop",
+      "target": "Gmail",
+      "result": "success",
+      "parameters": {
+        "restart_count": 0,
+        "max_restarts": 3,
+        "details": "Graceful shutdown"
+      }
+    },
+    {
+      "timestamp": "2026-03-09T08:00:34Z",
+      "correlation_id": "80b62f92-39e9-49c6-9253-57881d91d70b",
+      "actor": "watchdog",
+      "action_type": "watcher_stop",
+      "target": "VaultAction",
+      "result": "success",
+      "parameters": {
+        "restart_count": 0,
+        "max_restarts": 3,
+        "details": "Graceful shutdown"
+      }
+    },
+    {
+      "timestamp": "2026-03-09T08:00:35Z",
+      "correlation_id": "4ba74eb6-2e93-494d-af35-dfbb41a8e299",
+      "actor": "watchdog",
+      "action_type": "watcher_stop",
+      "target": "WhatsApp",
+      "result": "success",
+      "parameters": {
+        "restart_count": 0,
+        "max_restarts": 3,
+        "details": "Graceful shutdown"
+      }
+    },
+    {
+      "timestamp": "2026-03-09T08:00:35Z",
+      "correlation_id": "9a577abf-b84c-488d-a65b-ba94170d4644",
+      "actor": "watchdog",
+      "action_type": "watcher_stop",
+      "target": "LinkedIn",
+      "result": "success",
+      "parameters": {
+        "restart_count": 0,
+        "max_restarts": 3,
+        "details": "Graceful shutdown"
+      }
+    },
+    {
+      "timestamp": "2026-03-09T08:00:35Z",
+      "correlation_id": "e7907401-706b-430e-a961-c08ae28cd832",
+      "actor": "watchdog",
+      "action_type": "watcher_stop",
+      "target": "Facebook",
+      "result": "success",
+      "parameters": {
+        "restart_count": 0,
+        "max_restarts": 3,
+        "details": "Graceful shutdown"
+      }
+    },
+    {
+      "timestamp": "2026-03-09T08:00:35Z",
+      "correlation_id": "b36eaaac-db68-43c2-9e10-1ca1b6701aeb",
+      "actor": "watchdog",
+      "action_type": "watcher_stop",
+      "target": "Instagram",
+      "result": "success",
+      "parameters": {
+        "restart_count": 0,
+        "max_restarts": 3,
+        "details": "Graceful shutdown"
+      }
+    },
+    {
+      "timestamp": "2026-03-09T08:00:35Z",
+      "correlation_id": "924185e1-d873-4dbb-9614-35fe348e9a49",
+      "actor": "watchdog",
+      "action_type": "watcher_stop",
+      "target": "Twitter",
+      "result": "success",
+      "parameters": {
+        "restart_count": 0,
+        "max_restarts": 3,
+        "details": "Graceful shutdown"
+      }
+    },
+    {
+      "timestamp": "2026-03-09T08:00:35Z",
+      "correlation_id": "d3131b15-7cdf-43a9-b393-253ecbdbfb7b",
+      "actor": "orchestrator",
+      "action_type": "orchestrator_stop",
+      "target": "orchestrator",
+      "result": "success",
+      "parameters": {
+        "details": "Graceful shutdown",
+        "dev_mode": false
+      }
+    },
+    {
+      "timestamp": "2026-03-09T08:02:20Z",
+      "correlation_id": "4466368f-f606-4320-a2e1-bc03a51cdf99",
+      "actor": "orchestrator",
+      "action_type": "orchestrator_start",
+      "target": "orchestrator",
+      "result": "success",
+      "parameters": {
+        "details": "DEV_MODE=False",
+        "dev_mode": false
+      }
+    },
+    {
+      "timestamp": "2026-03-09T08:02:20Z",
+      "actor": "briefing-generator",
+      "action_type": "briefing_skipped",
+      "target": "vault/Briefings/",
+      "result": "success",
+      "details": "Briefing not due (wrong day, early time, or already generated today)"
+    },
+    {
+      "timestamp": "2026-03-09T08:03:32Z",
+      "correlation_id": "a3093e6c-c818-4892-af19-95a8718ca7fc",
+      "actor": "watchdog",
+      "action_type": "watcher_stop",
+      "target": "Gmail",
+      "result": "success",
+      "parameters": {
+        "restart_count": 0,
+        "max_restarts": 3,
+        "details": "Graceful shutdown"
+      }
+    },
+    {
+      "timestamp": "2026-03-09T08:03:32Z",
+      "correlation_id": "7d0b9df6-a97a-4c2d-ae3c-9e4dd75639b5",
+      "actor": "watchdog",
+      "action_type": "watcher_stop",
+      "target": "VaultAction",
+      "result": "success",
+      "parameters": {
+        "restart_count": 0,
+        "max_restarts": 3,
+        "details": "Graceful shutdown"
+      }
+    },
+    {
+      "timestamp": "2026-03-09T08:03:32Z",
+      "correlation_id": "213c25d2-8e11-47a7-aee1-614b7e94a6b9",
+      "actor": "watchdog",
+      "action_type": "watcher_stop",
+      "target": "WhatsApp",
+      "result": "success",
+      "parameters": {
+        "restart_count": 0,
+        "max_restarts": 3,
+        "details": "Graceful shutdown"
+      }
+    },
+    {
+      "timestamp": "2026-03-09T08:03:33Z",
+      "correlation_id": "9be33c79-50f2-4f46-84db-8749acb718bb",
+      "actor": "watchdog",
+      "action_type": "watcher_crash",
+      "target": "LinkedIn",
+      "result": "failure",
+      "parameters": {
+        "restart_count": 1,
+        "max_restarts": 3,
+        "details": "BrowserContext.close: Connection closed while reading from the driver"
+      }
+    },
+    {
+      "timestamp": "2026-03-09T08:03:33Z",
+      "correlation_id": "c8da3ba2-193f-4106-a555-5f58aa03feea",
+      "actor": "watchdog",
+      "action_type": "watcher_restart",
+      "target": "LinkedIn",
+      "result": "success",
+      "parameters": {
+        "restart_count": 1,
+        "max_restarts": 3,
+        "details": "Restart 1/3, backoff 2s"
+      }
+    },
+    {
+      "timestamp": "2026-03-09T08:03:35Z",
+      "correlation_id": "222a3d0a-c6ea-428a-a07c-b961941a881d",
+      "actor": "watchdog",
+      "action_type": "watcher_crash",
+      "target": "LinkedIn",
+      "result": "failure",
+      "parameters": {
+        "restart_count": 2,
+        "max_restarts": 3,
+        "details": "Page.goto: Connection closed while reading from the driver"
+      }
+    },
+    {
+      "timestamp": "2026-03-09T08:03:35Z",
+      "correlation_id": "119bfd64-b1b0-4825-9b63-dfd01fcd2d0b",
+      "actor": "watchdog",
+      "action_type": "watcher_restart",
+      "target": "LinkedIn",
+      "result": "success",
+      "parameters": {
+        "restart_count": 2,
+        "max_restarts": 3,
+        "details": "Restart 2/3, backoff 4s"
+      }
+    },
+    {
+      "timestamp": "2026-03-09T08:03:37Z",
+      "correlation_id": "d63afd68-f11c-451d-ad64-9d1303ead6c2",
+      "actor": "watchdog",
+      "action_type": "watcher_stop",
+      "target": "Twitter",
+      "result": "success",
+      "parameters": {
+        "restart_count": 0,
+        "max_restarts": 3,
+        "details": "Graceful shutdown"
+      }
+    },
+    {
+      "timestamp": "2026-03-09T08:03:37Z",
+      "correlation_id": "70eeb798-9017-4027-b159-2e6aca565a8d",
+      "actor": "watchdog",
+      "action_type": "watcher_stop",
+      "target": "Facebook",
+      "result": "success",
+      "parameters": {
+        "restart_count": 0,
+        "max_restarts": 3,
+        "details": "Graceful shutdown"
+      }
+    },
+    {
+      "timestamp": "2026-03-09T08:03:37Z",
+      "correlation_id": "36e236b9-4008-4d0d-a9fa-1f5e9fc51e49",
+      "actor": "watchdog",
+      "action_type": "watcher_stop",
+      "target": "Instagram",
+      "result": "success",
+      "parameters": {
+        "restart_count": 0,
+        "max_restarts": 3,
+        "details": "Graceful shutdown"
+      }
+    },
+    {
+      "timestamp": "2026-03-09T08:03:37Z",
+      "correlation_id": "e8e8d149-104f-4bba-95c5-891b5013d1c6",
+      "actor": "orchestrator",
+      "action_type": "orchestrator_stop",
+      "target": "orchestrator",
+      "result": "success",
+      "parameters": {
+        "details": "Graceful shutdown",
+        "dev_mode": false
+      }
+    },
+    {
+      "timestamp": "2026-03-09T08:11:01Z",
+      "correlation_id": "1836fde6-6712-472c-ae3c-379963a35777",
+      "actor": "orchestrator",
+      "action_type": "orchestrator_start",
+      "target": "orchestrator",
+      "result": "success",
+      "parameters": {
+        "details": "DEV_MODE=False",
+        "dev_mode": false
+      }
+    },
+    {
+      "timestamp": "2026-03-09T08:11:01Z",
+      "actor": "briefing-generator",
+      "action_type": "briefing_skipped",
+      "target": "vault/Briefings/",
+      "result": "success",
+      "details": "Briefing not due (wrong day, early time, or already generated today)"
+    },
+    {
+      "timestamp": "2026-03-09T08:11:03Z",
+      "correlation_id": "4218d51b-83e2-4630-89a4-03e06f014898",
+      "actor": "gmail_watcher",
+      "action_type": "email_processed",
+      "target": "email-testing-20260309T081103.md",
+      "result": "success",
+      "parameters": {
+        "message_id": "19cd1a4941a0d949",
+        "subject": "testing",
+        "priority": "low",
+        "dry_run": false,
+        "dev_mode": false
+      }
+    },
+    {
+      "timestamp": "2026-03-09T08:13:17Z",
+      "correlation_id": "167dedf4-9601-493b-b414-696b7bd32896",
+      "actor": "watchdog",
+      "action_type": "watcher_stop",
+      "target": "Gmail",
+      "result": "success",
+      "parameters": {
+        "restart_count": 0,
+        "max_restarts": 3,
+        "details": "Graceful shutdown"
+      }
+    },
+    {
+      "timestamp": "2026-03-09T08:13:17Z",
+      "correlation_id": "785e91da-668b-4550-ae5c-e53e685e83f0",
+      "actor": "watchdog",
+      "action_type": "watcher_stop",
+      "target": "VaultAction",
+      "result": "success",
+      "parameters": {
+        "restart_count": 0,
+        "max_restarts": 3,
+        "details": "Graceful shutdown"
+      }
+    },
+    {
+      "timestamp": "2026-03-09T08:13:17Z",
+      "correlation_id": "57e7fcf8-60b1-41cb-9df0-d760abe2722f",
+      "actor": "watchdog",
+      "action_type": "watcher_stop",
+      "target": "WhatsApp",
+      "result": "success",
+      "parameters": {
+        "restart_count": 0,
+        "max_restarts": 3,
+        "details": "Graceful shutdown"
+      }
+    },
+    {
+      "timestamp": "2026-03-09T08:13:17Z",
+      "correlation_id": "5537dd21-a442-4a99-93c6-548e36a6fee9",
+      "actor": "watchdog",
+      "action_type": "watcher_crash",
+      "target": "LinkedIn",
+      "result": "failure",
+      "parameters": {
+        "restart_count": 1,
+        "max_restarts": 3,
+        "details": "BrowserContext.close: Connection closed while reading from the driver"
+      }
+    },
+    {
+      "timestamp": "2026-03-09T08:13:17Z",
+      "correlation_id": "5cf47cac-0cb4-4997-8e3e-14cbcb3ca5a6",
+      "actor": "watchdog",
+      "action_type": "watcher_restart",
+      "target": "LinkedIn",
+      "result": "success",
+      "parameters": {
+        "restart_count": 1,
+        "max_restarts": 3,
+        "details": "Restart 1/3, backoff 2s"
+      }
+    },
+    {
+      "timestamp": "2026-03-09T08:13:19Z",
+      "correlation_id": "1bfc6046-0bb8-45c0-bc21-05323239379f",
+      "actor": "watchdog",
+      "action_type": "watcher_crash",
+      "target": "LinkedIn",
+      "result": "failure",
+      "parameters": {
+        "restart_count": 2,
+        "max_restarts": 3,
+        "details": "Page.goto: Connection closed while reading from the driver"
+      }
+    },
+    {
+      "timestamp": "2026-03-09T08:13:19Z",
+      "correlation_id": "e3d3f8af-816b-4e8c-ac62-bd98e947bad9",
+      "actor": "watchdog",
+      "action_type": "watcher_restart",
+      "target": "LinkedIn",
+      "result": "success",
+      "parameters": {
+        "restart_count": 2,
+        "max_restarts": 3,
+        "details": "Restart 2/3, backoff 4s"
+      }
+    },
+    {
+      "timestamp": "2026-03-09T08:13:22Z",
+      "correlation_id": "86489c32-4717-4bd2-a464-6ee3d3d29575",
+      "actor": "watchdog",
+      "action_type": "watcher_stop",
+      "target": "Facebook",
+      "result": "success",
+      "parameters": {
+        "restart_count": 0,
+        "max_restarts": 3,
+        "details": "Graceful shutdown"
+      }
+    },
+    {
+      "timestamp": "2026-03-09T08:13:22Z",
+      "correlation_id": "5b4878bc-0fd6-4b68-a56b-5cdd23c5127f",
+      "actor": "watchdog",
+      "action_type": "watcher_stop",
+      "target": "Instagram",
+      "result": "success",
+      "parameters": {
+        "restart_count": 0,
+        "max_restarts": 3,
+        "details": "Graceful shutdown"
+      }
+    },
+    {
+      "timestamp": "2026-03-09T08:13:22Z",
+      "correlation_id": "e4f457a3-ccbd-477b-af24-660b182fb511",
+      "actor": "watchdog",
+      "action_type": "watcher_stop",
+      "target": "Twitter",
+      "result": "success",
+      "parameters": {
+        "restart_count": 0,
+        "max_restarts": 3,
+        "details": "Graceful shutdown"
+      }
+    },
+    {
+      "timestamp": "2026-03-09T08:13:22Z",
+      "correlation_id": "32362404-1c65-48ed-8abd-c642843a50a8",
+      "actor": "orchestrator",
+      "action_type": "orchestrator_stop",
+      "target": "orchestrator",
+      "result": "success",
+      "parameters": {
+        "details": "Graceful shutdown",
+        "dev_mode": false
+      }
+    },
+    {
+      "timestamp": "2026-03-09T08:21:30Z",
+      "correlation_id": "cbbdf93b-f9b6-423e-818b-89809056f62d",
+      "actor": "orchestrator",
+      "action_type": "orchestrator_start",
+      "target": "orchestrator",
+      "result": "success",
+      "parameters": {
+        "details": "DEV_MODE=False",
+        "dev_mode": false
+      }
+    },
+    {
+      "timestamp": "2026-03-09T08:21:30Z",
+      "actor": "briefing-generator",
+      "action_type": "briefing_skipped",
+      "target": "vault/Briefings/",
+      "result": "success",
+      "details": "Briefing not due (wrong day, early time, or already generated today)"
+    },
+    {
+      "timestamp": "2026-03-09T08:27:05Z",
+      "correlation_id": "3f4651bd-c144-4999-984d-71b9ecbe8685",
+      "actor": "action_executor",
+      "action_type": "action_executed",
+      "target": "reply-testing-20260309T082201.md",
+      "result": "success",
+      "parameters": {
+        "details": "type=email_reply",
+        "dev_mode": false
+      }
+    },
+    {
+      "timestamp": "2026-03-09T08:30:27Z",
+      "correlation_id": "015d5552-51c6-438f-a99b-60891edbaf66",
+      "actor": "watchdog",
+      "action_type": "watcher_stop",
+      "target": "Gmail",
+      "result": "success",
+      "parameters": {
+        "restart_count": 0,
+        "max_restarts": 3,
+        "details": "Graceful shutdown"
+      }
+    },
+    {
+      "timestamp": "2026-03-09T08:30:27Z",
+      "correlation_id": "ecc1ed19-d4fa-4ea1-b633-c8b2c1da695b",
+      "actor": "watchdog",
+      "action_type": "watcher_stop",
+      "target": "VaultAction",
+      "result": "success",
+      "parameters": {
+        "restart_count": 0,
+        "max_restarts": 3,
+        "details": "Graceful shutdown"
+      }
+    },
+    {
+      "timestamp": "2026-03-09T08:30:27Z",
+      "correlation_id": "f49469e7-a0b3-406e-a8ee-cc8803b23b83",
+      "actor": "watchdog",
+      "action_type": "watcher_stop",
+      "target": "WhatsApp",
+      "result": "success",
+      "parameters": {
+        "restart_count": 0,
+        "max_restarts": 3,
+        "details": "Graceful shutdown"
+      }
+    },
+    {
+      "timestamp": "2026-03-09T08:30:27Z",
+      "correlation_id": "139f121b-3df8-4542-9d27-7a7e4a8a6fdb",
+      "actor": "watchdog",
+      "action_type": "watcher_crash",
+      "target": "LinkedIn",
+      "result": "failure",
+      "parameters": {
+        "restart_count": 1,
+        "max_restarts": 3,
+        "details": "BrowserContext.close: Target page, context or browser has been closed"
+      }
+    },
+    {
+      "timestamp": "2026-03-09T08:30:27Z",
+      "correlation_id": "d8ad5fa7-4d6e-4b38-b2fd-10fd8dfcf60a",
+      "actor": "watchdog",
+      "action_type": "watcher_restart",
+      "target": "LinkedIn",
+      "result": "success",
+      "parameters": {
+        "restart_count": 1,
+        "max_restarts": 3,
+        "details": "Restart 1/3, backoff 2s"
+      }
+    },
+    {
+      "timestamp": "2026-03-09T08:30:29Z",
+      "correlation_id": "9200b2eb-012d-4147-9715-399dc8e7e5a9",
+      "actor": "watchdog",
+      "action_type": "watcher_crash",
+      "target": "LinkedIn",
+      "result": "failure",
+      "parameters": {
+        "restart_count": 2,
+        "max_restarts": 3,
+        "details": "Page.goto: Connection closed while reading from the driver"
+      }
+    },
+    {
+      "timestamp": "2026-03-09T08:30:29Z",
+      "correlation_id": "1a15b036-8014-4e9d-baa0-17e4f8b1b5a4",
+      "actor": "watchdog",
+      "action_type": "watcher_restart",
+      "target": "LinkedIn",
+      "result": "success",
+      "parameters": {
+        "restart_count": 2,
+        "max_restarts": 3,
+        "details": "Restart 2/3, backoff 4s"
+      }
+    },
+    {
+      "timestamp": "2026-03-09T08:30:32Z",
+      "correlation_id": "75029282-a24e-4152-b522-ae79b068b1dd",
+      "actor": "watchdog",
+      "action_type": "watcher_stop",
+      "target": "Twitter",
+      "result": "success",
+      "parameters": {
+        "restart_count": 0,
+        "max_restarts": 3,
+        "details": "Graceful shutdown"
+      }
+    },
+    {
+      "timestamp": "2026-03-09T08:30:32Z",
+      "correlation_id": "590cda23-0f9a-4990-bdb8-6c82d17d1d8e",
+      "actor": "watchdog",
+      "action_type": "watcher_stop",
+      "target": "Facebook",
+      "result": "success",
+      "parameters": {
+        "restart_count": 0,
+        "max_restarts": 3,
+        "details": "Graceful shutdown"
+      }
+    },
+    {
+      "timestamp": "2026-03-09T08:30:32Z",
+      "correlation_id": "190c89cb-e2bf-4378-babd-8a0ab98d7d2a",
+      "actor": "watchdog",
+      "action_type": "watcher_stop",
+      "target": "Instagram",
+      "result": "success",
+      "parameters": {
+        "restart_count": 0,
+        "max_restarts": 3,
+        "details": "Graceful shutdown"
+      }
+    },
+    {
+      "timestamp": "2026-03-09T08:30:32Z",
+      "correlation_id": "2f0a3338-28da-4785-a7de-79ea1aabb2c1",
+      "actor": "orchestrator",
+      "action_type": "orchestrator_stop",
+      "target": "orchestrator",
+      "result": "success",
+      "parameters": {
+        "details": "Graceful shutdown",
+        "dev_mode": false
+      }
+    },
+    {
+      "timestamp": "2026-03-09T08:51:38Z",
+      "correlation_id": "d95e87b8-8ca2-4ebb-8cc8-373620d89e9a",
+      "actor": "orchestrator",
+      "action_type": "orchestrator_start",
+      "target": "orchestrator",
+      "result": "success",
+      "parameters": {
+        "details": "DEV_MODE=False",
+        "dev_mode": false
+      }
+    },
+    {
+      "timestamp": "2026-03-09T08:51:38Z",
+      "actor": "briefing-generator",
+      "action_type": "briefing_skipped",
+      "target": "vault/Briefings/",
+      "result": "success",
+      "details": "Briefing not due (wrong day, early time, or already generated today)"
+    },
+    {
+      "timestamp": "2026-03-09T08:52:46Z",
+      "correlation_id": "caf16fff-eeb1-4bd2-aa7e-1f8f5b1905b0",
+      "actor": "linkedin_watcher",
+      "action_type": "linkedin_processed",
+      "target": "LINKEDIN_linkedin-for-sales_20260309T085246.md",
+      "result": "success",
+      "parameters": {
+        "item_type": "message",
+        "sender": "LinkedIn for Sales",
+        "priority": "low",
+        "matched_keyword": "hi",
+        "dry_run": false,
+        "dev_mode": false
+      }
+    },
+    {
+      "timestamp": "2026-03-09T08:52:46Z",
+      "correlation_id": "6066f430-0b60-4356-bfd9-49fc3671179f",
+      "actor": "linkedin_watcher",
+      "action_type": "linkedin_processed",
+      "target": "LINKEDIN_khurram-khan_20260309T085246.md",
+      "result": "success",
+      "parameters": {
+        "item_type": "message",
+        "sender": "Khurram Khan",
+        "priority": "low",
+        "matched_keyword": "ap",
+        "dry_run": false,
+        "dev_mode": false
+      }
+    },
+    {
+      "timestamp": "2026-03-09T08:52:46Z",
+      "correlation_id": "367f52cc-2db1-4496-8a41-23c578b5cb0d",
+      "actor": "linkedin_watcher",
+      "action_type": "linkedin_processed",
+      "target": "LINKEDIN_imdad-hussain_20260309T085246.md",
+      "result": "success",
+      "parameters": {
+        "item_type": "message",
+        "sender": "Imdad hussain",
+        "priority": "low",
+        "matched_keyword": "thanks",
+        "dry_run": false,
+        "dev_mode": false
+      }
+    },
+    {
+      "timestamp": "2026-03-09T08:52:46Z",
+      "correlation_id": "1d909ba8-f9c2-4789-b4a2-8af0609436a0",
+      "actor": "linkedin_watcher",
+      "action_type": "linkedin_processed",
+      "target": "LINKEDIN_shahid-iqbal_20260309T085246.md",
+      "result": "success",
+      "parameters": {
+        "item_type": "message",
+        "sender": "Shahid Iqbal",
+        "priority": "low",
+        "matched_keyword": "hi",
+        "dry_run": false,
+        "dev_mode": false
+      }
+    },
+    {
+      "timestamp": "2026-03-09T08:52:46Z",
+      "correlation_id": "100b2105-5e2f-4458-8de2-c5b51d58f593",
+      "actor": "linkedin_watcher",
+      "action_type": "linkedin_processed",
+      "target": "LINKEDIN_muhammad-zeeshan-siddiqui_20260309T085246.md",
+      "result": "success",
+      "parameters": {
+        "item_type": "message",
+        "sender": "Muhammad Zeeshan Siddiqui",
+        "priority": "low",
+        "matched_keyword": "hi",
+        "dry_run": false,
+        "dev_mode": false
+      }
+    },
+    {
+      "timestamp": "2026-03-09T08:58:27Z",
+      "correlation_id": "c284ff51-46b9-4a2b-a437-f23b8f9e4146",
+      "actor": "linkedin_replier",
+      "action_type": "linkedin_reply",
+      "target": "linkedin-reply-muhammad-zeeshan-siddiqui-20260309T085505.md",
+      "result": "success",
+      "parameters": {
+        "sender": "Muhammad Zeeshan Siddiqui",
+        "reply_length": 156,
+        "dry_run": false,
+        "dev_mode": false
+      }
+    },
+    {
+      "timestamp": "2026-03-09T08:58:27Z",
+      "correlation_id": "064cd0c7-4448-4e7e-965a-70576ed93081",
+      "actor": "action_executor",
+      "action_type": "action_executed",
+      "target": "linkedin-reply-muhammad-zeeshan-siddiqui-20260309T085505.md",
+      "result": "success",
+      "parameters": {
+        "details": "type=linkedin_reply",
+        "dev_mode": false
+      }
+    },
+    {
+      "timestamp": "2026-03-09T09:03:28Z",
+      "correlation_id": "cf9032fb-9fa3-4ce9-a970-4ba8c6866110",
+      "actor": "linkedin_watcher",
+      "action_type": "linkedin_processed",
+      "target": "LINKEDIN_muhammad-zeeshan-siddiqui_20260309T090328.md",
+      "result": "success",
+      "parameters": {
+        "item_type": "message",
+        "sender": "Muhammad Zeeshan Siddiqui",
+        "priority": "low",
+        "matched_keyword": "hi",
+        "dry_run": false,
+        "dev_mode": false
+      }
+    },
+    {
+      "timestamp": "2026-03-09T09:08:21Z",
+      "correlation_id": "5a901c8c-90a4-4081-869d-345215f1b34e",
+      "actor": "linkedin_poster",
+      "action_type": "linkedin_post",
+      "target": "LINKEDIN_POST_2026-02-28.md",
+      "result": "success",
+      "parameters": {
+        "content_length": 1061,
+        "content_preview": "🚀 **Excited to share a milestone in my Personal AI Employee project!**\n\nThis feature was built durin",
+        "dry_run": false,
+        "dev_mode": false
+      }
+    },
+    {
+      "timestamp": "2026-03-09T09:08:22Z",
+      "correlation_id": "8ba3462b-a8f5-49e7-8c7f-653524e7d0f8",
+      "actor": "action_executor",
+      "action_type": "action_executed",
+      "target": "LINKEDIN_POST_2026-02-28.md",
+      "result": "success",
+      "parameters": {
+        "details": "type=linkedin_post",
+        "dev_mode": false
+      }
+    },
+    {
+      "timestamp": "2026-03-09T09:14:13Z",
+      "correlation_id": "c6f53b0d-b9d9-4616-b1c4-dbacadbffcd8",
+      "actor": "whatsapp_watcher",
+      "action_type": "whatsapp_processed",
+      "target": "WHATSAPP_insho_20260309T091413.md",
+      "result": "success",
+      "parameters": {
+        "chat_name": "Insho",
+        "message_preview": "It's urgent",
+        "priority": "high",
+        "matched_keyword": "urgent",
+        "dry_run": false,
+        "dev_mode": false
+      }
+    },
+    {
+      "timestamp": "2026-03-09T09:18:51Z",
+      "correlation_id": "9c8bec67-a2d9-4cf4-8c66-1180be3a3a65",
+      "actor": "whatsapp_replier",
+      "action_type": "whatsapp_reply",
+      "target": "whatsapp-reply-insho-20260309T091534.md",
+      "result": "success",
+      "parameters": {
+        "chat_name": "Insho",
+        "reply_length": 185,
+        "dry_run": false,
+        "dev_mode": false
+      }
+    },
+    {
+      "timestamp": "2026-03-09T09:18:53Z",
+      "correlation_id": "bfbb889b-224b-44da-a34f-e3f6709f91de",
+      "actor": "action_executor",
+      "action_type": "action_executed",
+      "target": "whatsapp-reply-insho-20260309T091534.md",
+      "result": "success",
+      "parameters": {
+        "details": "type=whatsapp_reply",
+        "dev_mode": false
+      }
+    },
+    {
+      "timestamp": "2026-03-09T09:20:45Z",
+      "correlation_id": "06bdcdd7-05f1-472c-9a1f-5b43a13bc9e4",
+      "actor": "watchdog",
+      "action_type": "watcher_stop",
+      "target": "Gmail",
+      "result": "success",
+      "parameters": {
+        "restart_count": 0,
+        "max_restarts": 3,
+        "details": "Graceful shutdown"
+      }
+    },
+    {
+      "timestamp": "2026-03-09T09:20:45Z",
+      "correlation_id": "0814d163-70d1-4942-ad68-05e934f70013",
+      "actor": "watchdog",
+      "action_type": "watcher_stop",
+      "target": "VaultAction",
+      "result": "success",
+      "parameters": {
+        "restart_count": 0,
+        "max_restarts": 3,
+        "details": "Graceful shutdown"
+      }
+    },
+    {
+      "timestamp": "2026-03-09T09:20:46Z",
+      "correlation_id": "4d5dc3f4-bbcf-4420-98a1-aa564486b4df",
+      "actor": "watchdog",
+      "action_type": "watcher_stop",
+      "target": "WhatsApp",
+      "result": "success",
+      "parameters": {
+        "restart_count": 0,
+        "max_restarts": 3,
+        "details": "Graceful shutdown"
+      }
+    },
+    {
+      "timestamp": "2026-03-09T09:20:46Z",
+      "correlation_id": "b658a9db-dfab-4ac0-8afe-ac478db07224",
+      "actor": "watchdog",
+      "action_type": "watcher_stop",
+      "target": "LinkedIn",
+      "result": "success",
+      "parameters": {
+        "restart_count": 0,
+        "max_restarts": 3,
+        "details": "Graceful shutdown"
+      }
+    },
+    {
+      "timestamp": "2026-03-09T09:20:46Z",
+      "correlation_id": "9640b6fd-fb3d-40e6-ac83-a68ab4d86c81",
+      "actor": "watchdog",
+      "action_type": "watcher_stop",
+      "target": "Facebook",
+      "result": "success",
+      "parameters": {
+        "restart_count": 0,
+        "max_restarts": 3,
+        "details": "Graceful shutdown"
+      }
+    },
+    {
+      "timestamp": "2026-03-09T09:20:46Z",
+      "correlation_id": "14572e46-a947-4c44-b141-bf961405ae62",
+      "actor": "watchdog",
+      "action_type": "watcher_stop",
+      "target": "Instagram",
+      "result": "success",
+      "parameters": {
+        "restart_count": 0,
+        "max_restarts": 3,
+        "details": "Graceful shutdown"
+      }
+    },
+    {
+      "timestamp": "2026-03-09T09:20:46Z",
+      "correlation_id": "8343f00c-7d87-4a3a-85d5-eb3525e6fe4c",
+      "actor": "watchdog",
+      "action_type": "watcher_stop",
+      "target": "Twitter",
+      "result": "success",
+      "parameters": {
+        "restart_count": 0,
+        "max_restarts": 3,
+        "details": "Graceful shutdown"
+      }
+    },
+    {
+      "timestamp": "2026-03-09T09:20:46Z",
+      "correlation_id": "da49edae-bc79-443f-82a3-8095fcc2ed9f",
+      "actor": "orchestrator",
+      "action_type": "orchestrator_stop",
+      "target": "orchestrator",
+      "result": "success",
+      "parameters": {
+        "details": "Graceful shutdown",
+        "dev_mode": false
+      }
+    },
+    {
+      "timestamp": "2026-03-09T09:30:09Z",
+      "correlation_id": "38b52095-7476-4647-a069-888dae6812e3",
+      "actor": "orchestrator",
+      "action_type": "orchestrator_start",
+      "target": "orchestrator",
+      "result": "success",
+      "parameters": {
+        "details": "DEV_MODE=False",
+        "dev_mode": false
+      }
+    },
+    {
+      "timestamp": "2026-03-09T09:30:09Z",
+      "actor": "briefing-generator",
+      "action_type": "briefing_skipped",
+      "target": "vault/Briefings/",
+      "result": "success",
+      "details": "Briefing not due (wrong day, early time, or already generated today)"
+    },
+    {
+      "timestamp": "2026-03-09T09:36:25Z",
+      "correlation_id": "2d06a382-2b7f-4e40-a4bd-499d55865c03",
+      "actor": "watchdog",
+      "action_type": "watcher_crash",
+      "target": "LinkedIn",
+      "result": "failure",
+      "parameters": {
+        "restart_count": 1,
+        "max_restarts": 3,
+        "details": "BrowserContext.close: Target page, context or browser has been closed"
+      }
+    },
+    {
+      "timestamp": "2026-03-09T09:36:25Z",
+      "correlation_id": "d54ec6c3-1c92-4fc9-8583-128696e8fb3e",
+      "actor": "watchdog",
+      "action_type": "watcher_restart",
+      "target": "LinkedIn",
+      "result": "success",
+      "parameters": {
+        "restart_count": 1,
+        "max_restarts": 3,
+        "details": "Restart 1/3, backoff 2s"
+      }
+    },
+    {
+      "timestamp": "2026-03-09T09:36:27Z",
+      "correlation_id": "96df4421-64f8-47f4-ac56-ca6dbc137fda",
+      "actor": "watchdog",
+      "action_type": "watcher_stop",
+      "target": "Gmail",
+      "result": "success",
+      "parameters": {
+        "restart_count": 0,
+        "max_restarts": 3,
+        "details": "Graceful shutdown"
+      }
+    },
+    {
+      "timestamp": "2026-03-09T09:36:27Z",
+      "correlation_id": "09f40cd3-72ae-4315-8f1b-55f6389a2ec5",
+      "actor": "watchdog",
+      "action_type": "watcher_stop",
+      "target": "VaultAction",
+      "result": "success",
+      "parameters": {
+        "restart_count": 0,
+        "max_restarts": 3,
+        "details": "Graceful shutdown"
+      }
+    },
+    {
+      "timestamp": "2026-03-09T09:36:27Z",
+      "correlation_id": "7564b0d8-5981-4e5d-b2c3-fb8ec8883176",
+      "actor": "watchdog",
+      "action_type": "watcher_stop",
+      "target": "WhatsApp",
+      "result": "success",
+      "parameters": {
+        "restart_count": 0,
+        "max_restarts": 3,
+        "details": "Graceful shutdown"
+      }
+    },
+    {
+      "timestamp": "2026-03-09T09:36:27Z",
+      "correlation_id": "67e06603-76ef-40db-b7e4-83311e3001d9",
+      "actor": "watchdog",
+      "action_type": "watcher_stop",
+      "target": "LinkedIn",
+      "result": "success",
+      "parameters": {
+        "restart_count": 1,
+        "max_restarts": 3,
+        "details": "Graceful shutdown"
+      }
+    },
+    {
+      "timestamp": "2026-03-09T09:36:28Z",
+      "correlation_id": "6318a7ca-6a0f-4666-b136-298b42841d15",
+      "actor": "watchdog",
+      "action_type": "watcher_crash",
+      "target": "Facebook",
+      "result": "failure",
+      "parameters": {
+        "restart_count": 1,
+        "max_restarts": 3,
+        "details": "BrowserContext.close: Target page, context or browser has been closed"
+      }
+    },
+    {
+      "timestamp": "2026-03-09T09:36:28Z",
+      "correlation_id": "5fa42412-b194-4cce-b6c9-4cf2e42bd528",
+      "actor": "watchdog",
+      "action_type": "watcher_restart",
+      "target": "Facebook",
+      "result": "success",
+      "parameters": {
+        "restart_count": 1,
+        "max_restarts": 3,
+        "details": "Restart 1/3, backoff 2s"
+      }
+    },
+    {
+      "timestamp": "2026-03-09T09:36:29Z",
+      "correlation_id": "5f9def4f-50fc-409e-b93e-8fc899379960",
+      "actor": "watchdog",
+      "action_type": "watcher_stop",
+      "target": "Twitter",
+      "result": "success",
+      "parameters": {
+        "restart_count": 0,
+        "max_restarts": 3,
+        "details": "Graceful shutdown"
+      }
+    },
+    {
+      "timestamp": "2026-03-09T09:36:29Z",
+      "correlation_id": "9538829e-33a0-4875-ba78-dc9849af9ead",
+      "actor": "watchdog",
+      "action_type": "watcher_stop",
+      "target": "Instagram",
+      "result": "success",
+      "parameters": {
+        "restart_count": 0,
+        "max_restarts": 3,
+        "details": "Graceful shutdown"
+      }
+    },
+    {
+      "timestamp": "2026-03-09T09:36:29Z",
+      "correlation_id": "55d87ec3-4790-4c5a-b2d3-6474034460fc",
+      "actor": "orchestrator",
+      "action_type": "orchestrator_stop",
+      "target": "orchestrator",
+      "result": "success",
+      "parameters": {
+        "details": "Graceful shutdown",
+        "dev_mode": false
+      }
+    },
+    {
+      "timestamp": "2026-03-09T09:43:35Z",
+      "correlation_id": "346efa87-248e-4305-a6dc-7608acd60ff0",
+      "actor": "orchestrator",
+      "action_type": "orchestrator_start",
+      "target": "orchestrator",
+      "result": "success",
+      "parameters": {
+        "details": "DEV_MODE=False",
+        "dev_mode": false
+      }
+    },
+    {
+      "timestamp": "2026-03-09T09:43:36Z",
+      "actor": "briefing-generator",
+      "action_type": "briefing_skipped",
+      "target": "vault/Briefings/",
+      "result": "success",
+      "details": "Briefing not due (wrong day, early time, or already generated today)"
+    },
+    {
+      "timestamp": "2026-03-09T09:52:41Z",
+      "correlation_id": "7140a64d-9538-425e-857a-b8762b4df4a5",
+      "actor": "action_executor",
+      "action_type": "action_failed",
+      "target": "facebook-reply-nimra-naz-20260228T233103.md",
+      "result": "failure",
+      "parameters": {
+        "details": "BrowserType.launch_persistent_context: Target page, context or browser has been closed\nBrowser logs:\n\n<launching> C:\\Users\\DELL\\AppData\\Local\\ms-playwright\\chromium-1208\\chrome-win64\\chrome.exe --disa",
+        "dev_mode": false
+      }
+    },
+    {
+      "timestamp": "2026-03-09T09:53:45Z",
+      "correlation_id": "3ca8ef62-e095-4fbb-906e-89e35e434047",
+      "actor": "facebook_replier",
+      "action_type": "facebook_reply",
+      "target": "Nimra Naz",
+      "result": "success",
+      "parameters": {
+        "sender": "Nimra Naz",
+        "preview": "Hi Nimra Naz, I received your message and understand that you need a reply as so"
+      }
+    },
+    {
+      "timestamp": "2026-03-09T09:53:45Z",
+      "correlation_id": "def49737-6c45-4678-ac93-d704574fbffa",
+      "actor": "action_executor",
+      "action_type": "action_failed",
+      "target": "facebook-reply-nimra-naz-20260228T233103.md",
+      "result": "failure",
+      "parameters": {
+        "details": "ActionExecutor._move_to_done() takes 2 positional arguments but 3 were given",
+        "dev_mode": false
+      }
+    },
+    {
+      "timestamp": "2026-03-09T09:54:30Z",
+      "correlation_id": "a064bf14-5de7-4c8b-9f9a-55278465b690",
+      "actor": "action_executor",
+      "action_type": "action_failed",
+      "target": "facebook-reply-nimra-naz-20260228T233103.md",
+      "result": "failure",
+      "parameters": {
+        "details": "Could not find Messenger conversation for: Nimra Naz",
+        "dev_mode": false
+      }
+    },
+    {
+      "timestamp": "2026-03-09T09:55:29Z",
+      "correlation_id": "ae1d0ee7-9be8-4e8e-9c49-2bbb0bc15c98",
+      "actor": "action_executor",
+      "action_type": "action_failed",
+      "target": "facebook-reply-nimra-naz-20260228T233103.md",
+      "result": "failure",
+      "parameters": {
+        "details": "BrowserType.launch_persistent_context: Target page, context or browser has been closed\nBrowser logs:\n\n<launching> C:\\Users\\DELL\\AppData\\Local\\ms-playwright\\chromium-1208\\chrome-win64\\chrome.exe --disa",
+        "dev_mode": false
+      }
+    },
+    {
+      "timestamp": "2026-03-09T09:55:50Z",
+      "correlation_id": "e30a860c-1d46-41c9-b193-d444b9040832",
+      "actor": "linkedin_watcher",
+      "action_type": "linkedin_processed",
+      "target": "LINKEDIN_muhammad-zeeshan-siddiqui_20260309T095550.md",
+      "result": "success",
+      "parameters": {
+        "item_type": "message",
+        "sender": "Muhammad Zeeshan Siddiqui",
+        "priority": "low",
+        "matched_keyword": "thanks",
+        "dry_run": false,
+        "dev_mode": false
+      }
+    },
+    {
+      "timestamp": "2026-03-09T09:56:14Z",
+      "correlation_id": "5d8b4002-5c8c-463e-84b6-f3a57b936efd",
+      "actor": "watchdog",
+      "action_type": "watcher_stop",
+      "target": "Gmail",
+      "result": "success",
+      "parameters": {
+        "restart_count": 0,
+        "max_restarts": 3,
+        "details": "Graceful shutdown"
+      }
+    },
+    {
+      "timestamp": "2026-03-09T09:56:14Z",
+      "correlation_id": "e58d10d6-eedf-4e42-83aa-ab74aac18757",
+      "actor": "watchdog",
+      "action_type": "watcher_stop",
+      "target": "VaultAction",
+      "result": "success",
+      "parameters": {
+        "restart_count": 0,
+        "max_restarts": 3,
+        "details": "Graceful shutdown"
+      }
+    },
+    {
+      "timestamp": "2026-03-09T09:56:14Z",
+      "correlation_id": "b2fc4497-e521-4680-a8f5-cdb7a2b9c716",
+      "actor": "watchdog",
+      "action_type": "watcher_stop",
+      "target": "WhatsApp",
+      "result": "success",
+      "parameters": {
+        "restart_count": 0,
+        "max_restarts": 3,
+        "details": "Graceful shutdown"
+      }
+    },
+    {
+      "timestamp": "2026-03-09T09:56:14Z",
+      "correlation_id": "bb204539-356c-4604-a076-e88c6264f5a3",
+      "actor": "watchdog",
+      "action_type": "watcher_stop",
+      "target": "LinkedIn",
+      "result": "success",
+      "parameters": {
+        "restart_count": 0,
+        "max_restarts": 3,
+        "details": "Graceful shutdown"
+      }
+    },
+    {
+      "timestamp": "2026-03-09T09:56:14Z",
+      "correlation_id": "b11302ad-2a36-4b28-bbac-9b686fd64ccb",
+      "actor": "watchdog",
+      "action_type": "watcher_stop",
+      "target": "Facebook",
+      "result": "success",
+      "parameters": {
+        "restart_count": 0,
+        "max_restarts": 3,
+        "details": "Graceful shutdown"
+      }
+    },
+    {
+      "timestamp": "2026-03-09T09:56:14Z",
+      "correlation_id": "db35f8eb-d9d9-4647-b0e2-e395e1a69daf",
+      "actor": "watchdog",
+      "action_type": "watcher_stop",
+      "target": "Instagram",
+      "result": "success",
+      "parameters": {
+        "restart_count": 0,
+        "max_restarts": 3,
+        "details": "Graceful shutdown"
+      }
+    },
+    {
+      "timestamp": "2026-03-09T09:56:14Z",
+      "correlation_id": "43dc0e66-5cb7-4d33-9828-b8b5d5790c67",
+      "actor": "watchdog",
+      "action_type": "watcher_stop",
+      "target": "Twitter",
+      "result": "success",
+      "parameters": {
+        "restart_count": 0,
+        "max_restarts": 3,
+        "details": "Graceful shutdown"
+      }
+    },
+    {
+      "timestamp": "2026-03-09T09:56:14Z",
+      "correlation_id": "6503e3ef-f86a-4b92-9337-23e2421a5043",
+      "actor": "orchestrator",
+      "action_type": "orchestrator_stop",
+      "target": "orchestrator",
+      "result": "success",
+      "parameters": {
+        "details": "Graceful shutdown",
+        "dev_mode": false
+      }
+    }
+  ]
+}

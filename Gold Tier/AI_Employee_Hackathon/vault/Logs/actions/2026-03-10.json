@@ -1,0 +1,1104 @@
+{
+  "date": "2026-03-10",
+  "entries": [
+    {
+      "timestamp": "2026-03-10T09:03:20Z",
+      "correlation_id": "88884c9a-c9b3-4449-85f8-3b58c5a4a712",
+      "actor": "orchestrator",
+      "action_type": "orchestrator_start",
+      "target": "orchestrator",
+      "result": "success",
+      "parameters": {
+        "details": "DEV_MODE=False",
+        "dev_mode": false
+      }
+    },
+    {
+      "timestamp": "2026-03-10T09:03:20Z",
+      "actor": "briefing-generator",
+      "action_type": "briefing_skipped",
+      "target": "vault/Briefings/",
+      "result": "success",
+      "details": "Briefing not due (wrong day, early time, or already generated today)"
+    },
+    {
+      "timestamp": "2026-03-10T09:03:25Z",
+      "correlation_id": "693547ac-7820-4ab1-b1f2-d768283543a6",
+      "actor": "action_executor",
+      "action_type": "action_failed",
+      "target": "ODOO_INVOICE_2026-02-22_E2E.md",
+      "result": "failure",
+      "parameters": {
+        "details": "Odoo authentication failed — check ODOO_USERNAME and ODOO_API_KEY",
+        "dev_mode": false
+      }
+    },
+    {
+      "timestamp": "2026-03-10T09:03:26Z",
+      "correlation_id": "e0f59f83-9a4f-4f76-8152-87667377d322",
+      "actor": "gmail_watcher",
+      "action_type": "email_processed",
+      "target": "email-soleyman-shahir-posted-why-free-content-isn-t-actu-20260310T090326.md",
+      "result": "success",
+      "parameters": {
+        "message_id": "19cd420bd3810388",
+        "subject": "Soleyman Shahir posted \"Why \"FREE\" content isn't actually FREE...\"",
+        "priority": "low",
+        "dry_run": false,
+        "dev_mode": false
+      }
+    },
+    {
+      "timestamp": "2026-03-10T09:03:26Z",
+      "correlation_id": "5eb11460-1e02-482f-bfdb-33edf22d0e30",
+      "actor": "gmail_watcher",
+      "action_type": "email_processed",
+      "target": "email-a-new-kind-of-textural-type-20260310T090326.md",
+      "result": "success",
+      "parameters": {
+        "message_id": "19cd3fe8de0fc309",
+        "subject": "A new kind of textural type",
+        "priority": "low",
+        "dry_run": false,
+        "dev_mode": false
+      }
+    },
+    {
+      "timestamp": "2026-03-10T09:03:56Z",
+      "correlation_id": "96ccea25-86a0-4c71-a403-f6dda10e8818",
+      "actor": "action_executor",
+      "action_type": "action_failed",
+      "target": "ODOO_INVOICE_2026-02-22_E2E.md",
+      "result": "failure",
+      "parameters": {
+        "details": "Odoo authentication failed — check ODOO_USERNAME and ODOO_API_KEY",
+        "dev_mode": false
+      }
+    },
+    {
+      "timestamp": "2026-03-10T09:04:15Z",
+      "correlation_id": "7e6162e3-312d-4b8b-9834-a93ce7345620",
+      "actor": "watchdog",
+      "action_type": "watcher_crash",
+      "target": "WhatsApp",
+      "result": "failure",
+      "parameters": {
+        "restart_count": 1,
+        "max_restarts": 3,
+        "details": "Page.goto: Timeout 30000ms exceeded.\nCall log:\n  - navigating to \"https://web.whatsapp.com/\", waiting until \"domcontentloaded\"\n"
+      }
+    },
+    {
+      "timestamp": "2026-03-10T09:04:15Z",
+      "correlation_id": "1e411a95-72ae-40e1-b2c9-23f8c0c3d943",
+      "actor": "watchdog",
+      "action_type": "watcher_restart",
+      "target": "WhatsApp",
+      "result": "success",
+      "parameters": {
+        "restart_count": 1,
+        "max_restarts": 3,
+        "details": "Restart 1/3, backoff 2s"
+      }
+    },
+    {
+      "timestamp": "2026-03-10T09:04:26Z",
+      "correlation_id": "f61ad422-98a5-458f-8d07-4427a4da960f",
+      "actor": "action_executor",
+      "action_type": "action_failed",
+      "target": "ODOO_INVOICE_2026-02-22_E2E.md",
+      "result": "failure",
+      "parameters": {
+        "details": "Odoo authentication failed — check ODOO_USERNAME and ODOO_API_KEY",
+        "dev_mode": false
+      }
+    },
+    {
+      "timestamp": "2026-03-10T09:04:32Z",
+      "correlation_id": "d1b8e3b4-e6f2-4ee8-9bad-2618c1e07246",
+      "actor": "facebook_watcher",
+      "action_type": "facebook_processed",
+      "target": "FACEBOOK_saylani-mass-i-t-training_20260310T090432.md",
+      "result": "success",
+      "parameters": {
+        "item_type": "message",
+        "sender": "Saylani Mass I.T. Training",
+        "priority": "high",
+        "dev_mode": false
+      }
+    },
+    {
+      "timestamp": "2026-03-10T09:04:55Z",
+      "correlation_id": "d57f1fdb-8adc-4370-b34d-9bea10f8f1be",
+      "actor": "linkedin_watcher",
+      "action_type": "linkedin_processed",
+      "target": "LINKEDIN_muhammad-zeeshan-siddiqui_20260310T090455.md",
+      "result": "success",
+      "parameters": {
+        "item_type": "message",
+        "sender": "Muhammad Zeeshan Siddiqui",
+        "priority": "low",
+        "matched_keyword": "thanks",
+        "dry_run": false,
+        "dev_mode": false
+      }
+    },
+    {
+      "timestamp": "2026-03-10T09:04:56Z",
+      "correlation_id": "b36acf00-d8f7-4cf4-9ad5-5282f6d1ce64",
+      "actor": "action_executor",
+      "action_type": "action_failed",
+      "target": "ODOO_INVOICE_2026-02-22_E2E.md",
+      "result": "failure",
+      "parameters": {
+        "details": "Odoo authentication failed — check ODOO_USERNAME and ODOO_API_KEY",
+        "dev_mode": false
+      }
+    },
+    {
+      "timestamp": "2026-03-10T09:05:26Z",
+      "correlation_id": "00d58680-d124-4487-b664-dd1e6d5c4ba3",
+      "actor": "action_executor",
+      "action_type": "action_failed",
+      "target": "ODOO_INVOICE_2026-02-22_E2E.md",
+      "result": "failure",
+      "parameters": {
+        "details": "Odoo authentication failed — check ODOO_USERNAME and ODOO_API_KEY",
+        "dev_mode": false
+      }
+    },
+    {
+      "timestamp": "2026-03-10T09:05:56Z",
+      "correlation_id": "ccdfe88c-9a22-4a61-bf51-71ee2baa1cdf",
+      "actor": "action_executor",
+      "action_type": "action_failed",
+      "target": "ODOO_INVOICE_2026-02-22_E2E.md",
+      "result": "failure",
+      "parameters": {
+        "details": "Odoo authentication failed — check ODOO_USERNAME and ODOO_API_KEY",
+        "dev_mode": false
+      }
+    },
+    {
+      "timestamp": "2026-03-10T09:06:26Z",
+      "correlation_id": "826f3385-6b21-4f92-a152-de376201fc07",
+      "actor": "action_executor",
+      "action_type": "action_failed",
+      "target": "ODOO_INVOICE_2026-02-22_E2E.md",
+      "result": "failure",
+      "parameters": {
+        "details": "Odoo authentication failed — check ODOO_USERNAME and ODOO_API_KEY",
+        "dev_mode": false
+      }
+    },
+    {
+      "timestamp": "2026-03-10T09:06:56Z",
+      "correlation_id": "a38729c9-08f2-483a-82a0-253791cf0c51",
+      "actor": "action_executor",
+      "action_type": "action_failed",
+      "target": "ODOO_INVOICE_2026-02-22_E2E.md",
+      "result": "failure",
+      "parameters": {
+        "details": "Odoo authentication failed — check ODOO_USERNAME and ODOO_API_KEY",
+        "dev_mode": false
+      }
+    },
+    {
+      "timestamp": "2026-03-10T09:07:07Z",
+      "correlation_id": "296f8a46-c7a4-402e-a366-fae70d578de5",
+      "actor": "whatsapp_watcher",
+      "action_type": "whatsapp_processed",
+      "target": "WHATSAPP_insho_20260310T090707.md",
+      "result": "success",
+      "parameters": {
+        "chat_name": "Insho",
+        "message_preview": "Sahi baat hai",
+        "priority": "high",
+        "matched_keyword": "urgent",
+        "dry_run": false,
+        "dev_mode": false
+      }
+    },
+    {
+      "timestamp": "2026-03-10T09:07:07Z",
+      "correlation_id": "d8788927-6e24-4af4-b6ee-13d526be20fa",
+      "actor": "whatsapp_watcher",
+      "action_type": "whatsapp_processed",
+      "target": "WHATSAPP_jpsd-haq-ki-awaz_20260310T090707.md",
+      "result": "success",
+      "parameters": {
+        "chat_name": "JPSD HAQ KI AWAZ",
+        "message_preview": "Price: 400/-\n\nDelivery: Free\n\nPayment: COD",
+        "priority": "high",
+        "matched_keyword": "payment",
+        "dry_run": false,
+        "dev_mode": false
+      }
+    },
+    {
+      "timestamp": "2026-03-10T09:07:26Z",
+      "correlation_id": "821a6e97-8f90-496e-9765-4dd8f431da8e",
+      "actor": "action_executor",
+      "action_type": "action_failed",
+      "target": "ODOO_INVOICE_2026-02-22_E2E.md",
+      "result": "failure",
+      "parameters": {
+        "details": "Odoo authentication failed — check ODOO_USERNAME and ODOO_API_KEY",
+        "dev_mode": false
+      }
+    },
+    {
+      "timestamp": "2026-03-10T09:07:36Z",
+      "correlation_id": "a03c42a2-520d-4926-9da6-ca0bd8dc9f67",
+      "actor": "watchdog",
+      "action_type": "watcher_stop",
+      "target": "Gmail",
+      "result": "success",
+      "parameters": {
+        "restart_count": 0,
+        "max_restarts": 3,
+        "details": "Graceful shutdown"
+      }
+    },
+    {
+      "timestamp": "2026-03-10T09:07:36Z",
+      "correlation_id": "24b67dae-eebd-4ac0-adda-4a0185aa82a1",
+      "actor": "watchdog",
+      "action_type": "watcher_stop",
+      "target": "VaultAction",
+      "result": "success",
+      "parameters": {
+        "restart_count": 0,
+        "max_restarts": 3,
+        "details": "Graceful shutdown"
+      }
+    },
+    {
+      "timestamp": "2026-03-10T09:07:36Z",
+      "correlation_id": "6de05631-55d8-428f-8c6d-ec7a0ba5dc80",
+      "actor": "watchdog",
+      "action_type": "watcher_stop",
+      "target": "WhatsApp",
+      "result": "success",
+      "parameters": {
+        "restart_count": 1,
+        "max_restarts": 3,
+        "details": "Graceful shutdown"
+      }
+    },
+    {
+      "timestamp": "2026-03-10T09:07:36Z",
+      "correlation_id": "5d9dc514-5847-4500-ad3a-dc5eddff1520",
+      "actor": "watchdog",
+      "action_type": "watcher_stop",
+      "target": "LinkedIn",
+      "result": "success",
+      "parameters": {
+        "restart_count": 0,
+        "max_restarts": 3,
+        "details": "Graceful shutdown"
+      }
+    },
+    {
+      "timestamp": "2026-03-10T09:07:36Z",
+      "correlation_id": "a1087c92-ec16-45fc-b0a8-6d7dee3e662f",
+      "actor": "watchdog",
+      "action_type": "watcher_stop",
+      "target": "Facebook",
+      "result": "success",
+      "parameters": {
+        "restart_count": 0,
+        "max_restarts": 3,
+        "details": "Graceful shutdown"
+      }
+    },
+    {
+      "timestamp": "2026-03-10T09:07:36Z",
+      "correlation_id": "4e4ca40d-9422-420a-aa5a-8cdf617240a7",
+      "actor": "watchdog",
+      "action_type": "watcher_stop",
+      "target": "Instagram",
+      "result": "success",
+      "parameters": {
+        "restart_count": 0,
+        "max_restarts": 3,
+        "details": "Graceful shutdown"
+      }
+    },
+    {
+      "timestamp": "2026-03-10T09:07:36Z",
+      "correlation_id": "d84dcbcd-f97e-49f3-9f3e-ff27dd9d63a8",
+      "actor": "watchdog",
+      "action_type": "watcher_stop",
+      "target": "Twitter",
+      "result": "success",
+      "parameters": {
+        "restart_count": 0,
+        "max_restarts": 3,
+        "details": "Graceful shutdown"
+      }
+    },
+    {
+      "timestamp": "2026-03-10T09:07:36Z",
+      "correlation_id": "98705a60-592f-48a1-ac07-d2128b812ec1",
+      "actor": "orchestrator",
+      "action_type": "orchestrator_stop",
+      "target": "orchestrator",
+      "result": "success",
+      "parameters": {
+        "details": "Graceful shutdown",
+        "dev_mode": false
+      }
+    },
+    {
+      "timestamp": "2026-03-10T09:08:47Z",
+      "correlation_id": "154c879e-366c-443f-9b42-6c98d225aa93",
+      "actor": "orchestrator",
+      "action_type": "orchestrator_start",
+      "target": "orchestrator",
+      "result": "success",
+      "parameters": {
+        "details": "DEV_MODE=False",
+        "dev_mode": false
+      }
+    },
+    {
+      "timestamp": "2026-03-10T09:08:47Z",
+      "actor": "briefing-generator",
+      "action_type": "briefing_skipped",
+      "target": "vault/Briefings/",
+      "result": "success",
+      "details": "Briefing not due (wrong day, early time, or already generated today)"
+    },
+    {
+      "timestamp": "2026-03-10T09:09:09Z",
+      "correlation_id": "299f77a4-f470-491c-bc58-88c376ad422d",
+      "actor": "watchdog",
+      "action_type": "watcher_crash",
+      "target": "LinkedIn",
+      "result": "failure",
+      "parameters": {
+        "restart_count": 1,
+        "max_restarts": 3,
+        "details": "BrowserContext.close: Target page, context or browser has been closed"
+      }
+    },
+    {
+      "timestamp": "2026-03-10T09:09:09Z",
+      "correlation_id": "57698fba-08e2-4b43-b930-ecf49c3d0865",
+      "actor": "watchdog",
+      "action_type": "watcher_restart",
+      "target": "LinkedIn",
+      "result": "success",
+      "parameters": {
+        "restart_count": 1,
+        "max_restarts": 3,
+        "details": "Restart 1/3, backoff 2s"
+      }
+    },
+    {
+      "timestamp": "2026-03-10T09:09:12Z",
+      "correlation_id": "f200da85-a897-4894-8fc4-fe098d4df07b",
+      "actor": "action_executor",
+      "action_type": "create_invoice",
+      "target": "odoo",
+      "result": "success",
+      "parameters": {
+        "odoo_invoice_id": 1,
+        "odoo_invoice_ref": "INV/2026/00001",
+        "customer_id": 7,
+        "customer_name": "Test Customer",
+        "invoice_date": "2026-03-03",
+        "line_count": 1,
+        "estimated_total": 900.0,
+        "source_file": "ODOO_INVOICE_2026-02-22_E2E.md",
+        "dev_mode": false
+      }
+    },
+    {
+      "timestamp": "2026-03-10T09:09:12Z",
+      "correlation_id": "f200da85-a897-4894-8fc4-fe098d4df07b",
+      "actor": "action_executor",
+      "action_type": "action_executed",
+      "target": "ODOO_INVOICE_2026-02-22_E2E.md",
+      "result": "success",
+      "parameters": {
+        "details": "type=odoo_invoice",
+        "dev_mode": false
+      }
+    },
+    {
+      "timestamp": "2026-03-10T09:09:13Z",
+      "correlation_id": "f06d0a72-52de-4d41-a23d-d5552bfac5d0",
+      "actor": "watchdog",
+      "action_type": "watcher_crash",
+      "target": "Facebook",
+      "result": "failure",
+      "parameters": {
+        "restart_count": 1,
+        "max_restarts": 3,
+        "details": "BrowserContext.close: Target page, context or browser has been closed"
+      }
+    },
+    {
+      "timestamp": "2026-03-10T09:09:13Z",
+      "correlation_id": "ecf85e3a-1308-43f4-b6d2-1c8fa2645c23",
+      "actor": "watchdog",
+      "action_type": "watcher_restart",
+      "target": "Facebook",
+      "result": "success",
+      "parameters": {
+        "restart_count": 1,
+        "max_restarts": 3,
+        "details": "Restart 1/3, backoff 2s"
+      }
+    },
+    {
+      "timestamp": "2026-03-10T09:09:13Z",
+      "correlation_id": "fe0f25ee-d166-49e0-9cdd-e1820b745236",
+      "actor": "watchdog",
+      "action_type": "watcher_crash",
+      "target": "LinkedIn",
+      "result": "failure",
+      "parameters": {
+        "restart_count": 2,
+        "max_restarts": 3,
+        "details": "Page.goto: Target page, context or browser has been closed"
+      }
+    },
+    {
+      "timestamp": "2026-03-10T09:09:13Z",
+      "correlation_id": "504d3929-0623-479f-a808-0f8acc7b51a3",
+      "actor": "watchdog",
+      "action_type": "watcher_restart",
+      "target": "LinkedIn",
+      "result": "success",
+      "parameters": {
+        "restart_count": 2,
+        "max_restarts": 3,
+        "details": "Restart 2/3, backoff 4s"
+      }
+    },
+    {
+      "timestamp": "2026-03-10T09:09:13Z",
+      "correlation_id": "1b05a221-f75c-4ece-a603-21675b210953",
+      "actor": "watchdog",
+      "action_type": "watcher_crash",
+      "target": "WhatsApp",
+      "result": "failure",
+      "parameters": {
+        "restart_count": 1,
+        "max_restarts": 3,
+        "details": "Page.goto: net::ERR_ABORTED; maybe frame was detached?\nCall log:\n  - navigating to \"https://web.whatsapp.com/\", waiting until \"domcontentloaded\"\n"
+      }
+    },
+    {
+      "timestamp": "2026-03-10T09:09:13Z",
+      "correlation_id": "489ed7ff-0937-4e73-b4a5-c13ad5eb3322",
+      "actor": "watchdog",
+      "action_type": "watcher_restart",
+      "target": "WhatsApp",
+      "result": "success",
+      "parameters": {
+        "restart_count": 1,
+        "max_restarts": 3,
+        "details": "Restart 1/3, backoff 2s"
+      }
+    },
+    {
+      "timestamp": "2026-03-10T09:09:23Z",
+      "correlation_id": "d28408eb-6422-464e-a031-e38f09793010",
+      "actor": "watchdog",
+      "action_type": "watcher_crash",
+      "target": "WhatsApp",
+      "result": "failure",
+      "parameters": {
+        "restart_count": 2,
+        "max_restarts": 3,
+        "details": "Page.goto: net::ERR_NAME_NOT_RESOLVED at https://web.whatsapp.com/\nCall log:\n  - navigating to \"https://web.whatsapp.com/\", waiting until \"domcontentloaded\"\n"
+      }
+    },
+    {
+      "timestamp": "2026-03-10T09:09:23Z",
+      "correlation_id": "bd656be2-e7bc-4297-918a-fae9379e51a4",
+      "actor": "watchdog",
+      "action_type": "watcher_restart",
+      "target": "WhatsApp",
+      "result": "success",
+      "parameters": {
+        "restart_count": 2,
+        "max_restarts": 3,
+        "details": "Restart 2/3, backoff 4s"
+      }
+    },
+    {
+      "timestamp": "2026-03-10T09:09:23Z",
+      "correlation_id": "46b87378-8d3b-4a0a-b831-893e71608a64",
+      "actor": "watchdog",
+      "action_type": "watcher_crash",
+      "target": "LinkedIn",
+      "result": "failure",
+      "parameters": {
+        "restart_count": 3,
+        "max_restarts": 3,
+        "details": "Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.linkedin.com/feed/\nCall log:\n  - navigating to \"https://www.linkedin.com/feed/\", waiting until \"domcontentloaded\"\n"
+      }
+    },
+    {
+      "timestamp": "2026-03-10T09:09:23Z",
+      "correlation_id": "5adb453d-5931-4a98-b7ff-6f8360e83ff4",
+      "actor": "watchdog",
+      "action_type": "watcher_failed",
+      "target": "LinkedIn",
+      "result": "failure",
+      "parameters": {
+        "restart_count": 3,
+        "max_restarts": 3,
+        "details": "Max restarts (3) exceeded"
+      }
+    },
+    {
+      "timestamp": "2026-03-10T09:09:30Z",
+      "correlation_id": "f1e97f04-be2b-4117-a00a-664ac028307b",
+      "actor": "watchdog",
+      "action_type": "watcher_crash",
+      "target": "WhatsApp",
+      "result": "failure",
+      "parameters": {
+        "restart_count": 3,
+        "max_restarts": 3,
+        "details": "Page.goto: net::ERR_NAME_NOT_RESOLVED at https://web.whatsapp.com/\nCall log:\n  - navigating to \"https://web.whatsapp.com/\", waiting until \"domcontentloaded\"\n"
+      }
+    },
+    {
+      "timestamp": "2026-03-10T09:09:30Z",
+      "correlation_id": "86646821-2ccd-4898-80a5-bc83209edd36",
+      "actor": "watchdog",
+      "action_type": "watcher_failed",
+      "target": "WhatsApp",
+      "result": "failure",
+      "parameters": {
+        "restart_count": 3,
+        "max_restarts": 3,
+        "details": "Max restarts (3) exceeded"
+      }
+    },
+    {
+      "timestamp": "2026-03-10T09:20:16Z",
+      "correlation_id": "ef938df3-a96e-4a9f-b49f-f50082181cbc",
+      "actor": "action_executor",
+      "action_type": "create_invoice",
+      "target": "odoo",
+      "result": "success",
+      "parameters": {
+        "odoo_invoice_id": 2,
+        "odoo_invoice_ref": "INV/2024/00001",
+        "customer_id": 8,
+        "customer_name": "hira",
+        "invoice_date": "2024-06-01",
+        "line_count": 1,
+        "estimated_total": 0.0,
+        "source_file": "ODOO_INVOICE_TEMPLATE.md",
+        "dev_mode": false
+      }
+    },
+    {
+      "timestamp": "2026-03-10T09:20:16Z",
+      "correlation_id": "ef938df3-a96e-4a9f-b49f-f50082181cbc",
+      "actor": "action_executor",
+      "action_type": "action_executed",
+      "target": "ODOO_INVOICE_TEMPLATE.md",
+      "result": "success",
+      "parameters": {
+        "details": "type=odoo_invoice",
+        "dev_mode": false
+      }
+    },
+    {
+      "timestamp": "2026-03-10T09:21:47Z",
+      "correlation_id": "795369ee-2987-40f1-8454-f19d8f15c260",
+      "actor": "action_executor",
+      "action_type": "create_invoice",
+      "target": "odoo",
+      "result": "success",
+      "parameters": {
+        "odoo_invoice_id": 3,
+        "odoo_invoice_ref": "INV/2026/00002",
+        "customer_id": 8,
+        "customer_name": "hira",
+        "invoice_date": "2026-03-10",
+        "line_count": 1,
+        "estimated_total": 0.0,
+        "source_file": "ODOO_INVOICE_TEMPLATE.md",
+        "dev_mode": false
+      }
+    },
+    {
+      "timestamp": "2026-03-10T09:21:47Z",
+      "correlation_id": "795369ee-2987-40f1-8454-f19d8f15c260",
+      "actor": "action_executor",
+      "action_type": "action_executed",
+      "target": "ODOO_INVOICE_TEMPLATE.md",
+      "result": "success",
+      "parameters": {
+        "details": "type=odoo_invoice",
+        "dev_mode": false
+      }
+    },
+    {
+      "timestamp": "2026-03-10T09:22:19Z",
+      "correlation_id": "5d9fb12e-d78b-4c6b-a9ad-acbaa3c10be6",
+      "actor": "action_executor",
+      "action_type": "action_failed",
+      "target": "ODOO_INVOICE_TEMPLATE.md",
+      "result": "failure",
+      "parameters": {
+        "details": "float() argument must be a string or a real number, not 'NoneType'",
+        "dev_mode": false
+      }
+    },
+    {
+      "timestamp": "2026-03-10T09:22:50Z",
+      "correlation_id": "75765e6a-16f4-4196-8582-dd9b60640320",
+      "actor": "action_executor",
+      "action_type": "create_invoice",
+      "target": "odoo",
+      "result": "success",
+      "parameters": {
+        "odoo_invoice_id": 4,
+        "odoo_invoice_ref": "INV/2026/00003",
+        "customer_id": 8,
+        "customer_name": "hira",
+        "invoice_date": "2026-03-10",
+        "line_count": 1,
+        "estimated_total": 1000.0,
+        "source_file": "ODOO_INVOICE_TEMPLATE.md",
+        "dev_mode": false
+      }
+    },
+    {
+      "timestamp": "2026-03-10T09:22:50Z",
+      "correlation_id": "75765e6a-16f4-4196-8582-dd9b60640320",
+      "actor": "action_executor",
+      "action_type": "action_executed",
+      "target": "ODOO_INVOICE_TEMPLATE.md",
+      "result": "success",
+      "parameters": {
+        "details": "type=odoo_invoice",
+        "dev_mode": false
+      }
+    },
+    {
+      "timestamp": "2026-03-10T09:24:52Z",
+      "correlation_id": "6bd60dd0-f5cf-40b4-a85c-0baec9170e64",
+      "actor": "action_executor",
+      "action_type": "create_invoice",
+      "target": "odoo",
+      "result": "success",
+      "parameters": {
+        "odoo_invoice_id": 5,
+        "odoo_invoice_ref": "INV/2026/00004",
+        "customer_id": 8,
+        "customer_name": "hira",
+        "invoice_date": "2026-03-10",
+        "line_count": 1,
+        "estimated_total": 1000.0,
+        "source_file": "ODOO_INVOICE_TEMPLATE.md",
+        "dev_mode": false
+      }
+    },
+    {
+      "timestamp": "2026-03-10T09:24:52Z",
+      "correlation_id": "6bd60dd0-f5cf-40b4-a85c-0baec9170e64",
+      "actor": "action_executor",
+      "action_type": "action_executed",
+      "target": "ODOO_INVOICE_TEMPLATE.md",
+      "result": "success",
+      "parameters": {
+        "details": "type=odoo_invoice",
+        "dev_mode": false
+      }
+    },
+    {
+      "timestamp": "2026-03-10T09:25:24Z",
+      "correlation_id": "08000167-321d-4704-bf1a-0a93c520360f",
+      "actor": "action_executor",
+      "action_type": "create_invoice",
+      "target": "odoo",
+      "result": "success",
+      "parameters": {
+        "odoo_invoice_id": 6,
+        "odoo_invoice_ref": "INV/2026/00005",
+        "customer_id": 9,
+        "customer_name": "shoaib",
+        "invoice_date": "2026-03-10",
+        "line_count": 1,
+        "estimated_total": 1000.0,
+        "source_file": "ODOO_INVOICE_TEMPLATE.md",
+        "dev_mode": false
+      }
+    },
+    {
+      "timestamp": "2026-03-10T09:25:24Z",
+      "correlation_id": "08000167-321d-4704-bf1a-0a93c520360f",
+      "actor": "action_executor",
+      "action_type": "action_executed",
+      "target": "ODOO_INVOICE_TEMPLATE.md",
+      "result": "success",
+      "parameters": {
+        "details": "type=odoo_invoice",
+        "dev_mode": false
+      }
+    },
+    {
+      "timestamp": "2026-03-10T09:29:03Z",
+      "correlation_id": "810f6e70-d57e-4890-91ad-0233050d7d49",
+      "actor": "watchdog",
+      "action_type": "watcher_stop",
+      "target": "Gmail",
+      "result": "success",
+      "parameters": {
+        "restart_count": 0,
+        "max_restarts": 3,
+        "details": "Graceful shutdown"
+      }
+    },
+    {
+      "timestamp": "2026-03-10T09:29:03Z",
+      "correlation_id": "7559da7d-17e1-43d4-a142-9d4ef91da149",
+      "actor": "watchdog",
+      "action_type": "watcher_stop",
+      "target": "VaultAction",
+      "result": "success",
+      "parameters": {
+        "restart_count": 0,
+        "max_restarts": 3,
+        "details": "Graceful shutdown"
+      }
+    },
+    {
+      "timestamp": "2026-03-10T09:29:04Z",
+      "correlation_id": "5491afb5-ca3e-438f-8103-465e7ab1b84a",
+      "actor": "watchdog",
+      "action_type": "watcher_stop",
+      "target": "Facebook",
+      "result": "success",
+      "parameters": {
+        "restart_count": 1,
+        "max_restarts": 3,
+        "details": "Graceful shutdown"
+      }
+    },
+    {
+      "timestamp": "2026-03-10T09:29:04Z",
+      "correlation_id": "f9056e40-ea45-47e3-97a3-69cbb39c883b",
+      "actor": "watchdog",
+      "action_type": "watcher_crash",
+      "target": "Instagram",
+      "result": "failure",
+      "parameters": {
+        "restart_count": 1,
+        "max_restarts": 3,
+        "details": "BrowserContext.close: Target page, context or browser has been closed"
+      }
+    },
+    {
+      "timestamp": "2026-03-10T09:29:04Z",
+      "correlation_id": "b3e97e66-e71a-4d5c-be5f-4a77d015a164",
+      "actor": "watchdog",
+      "action_type": "watcher_restart",
+      "target": "Instagram",
+      "result": "success",
+      "parameters": {
+        "restart_count": 1,
+        "max_restarts": 3,
+        "details": "Restart 1/3, backoff 2s"
+      }
+    },
+    {
+      "timestamp": "2026-03-10T09:29:09Z",
+      "correlation_id": "e896a7d6-0b4a-443d-b4d1-950c94efcf45",
+      "actor": "watchdog",
+      "action_type": "watcher_stop",
+      "target": "Instagram",
+      "result": "success",
+      "parameters": {
+        "restart_count": 1,
+        "max_restarts": 3,
+        "details": "Graceful shutdown"
+      }
+    },
+    {
+      "timestamp": "2026-03-10T09:29:09Z",
+      "correlation_id": "d97e0d41-bc76-429f-afa0-0321d48a64f1",
+      "actor": "watchdog",
+      "action_type": "watcher_stop",
+      "target": "Twitter",
+      "result": "success",
+      "parameters": {
+        "restart_count": 0,
+        "max_restarts": 3,
+        "details": "Graceful shutdown"
+      }
+    },
+    {
+      "timestamp": "2026-03-10T09:29:09Z",
+      "correlation_id": "299a6f5c-da76-4a06-b4f7-7a6b4b0961fb",
+      "actor": "orchestrator",
+      "action_type": "orchestrator_stop",
+      "target": "orchestrator",
+      "result": "success",
+      "parameters": {
+        "details": "Graceful shutdown",
+        "dev_mode": false
+      }
+    },
+    {
+      "timestamp": "2026-03-10T09:34:52Z",
+      "correlation_id": "c51b8736-b114-4c13-8bd7-85d74aeafee5",
+      "actor": "orchestrator",
+      "action_type": "orchestrator_start",
+      "target": "orchestrator",
+      "result": "success",
+      "parameters": {
+        "details": "DEV_MODE=False",
+        "dev_mode": false
+      }
+    },
+    {
+      "timestamp": "2026-03-10T09:34:52Z",
+      "actor": "briefing-generator",
+      "action_type": "briefing_skipped",
+      "target": "vault/Briefings/",
+      "result": "success",
+      "details": "Briefing not due (wrong day, early time, or already generated today)"
+    },
+    {
+      "timestamp": "2026-03-10T09:34:56Z",
+      "correlation_id": "35951763-6071-4d4e-afbe-354f4f7e3591",
+      "actor": "action_executor",
+      "action_type": "action_failed",
+      "target": "ODOO_PAYMENT_TEMPLATE.md",
+      "result": "failure",
+      "parameters": {
+        "details": "Invoice ID 10 not found",
+        "dev_mode": false
+      }
+    },
+    {
+      "timestamp": "2026-03-10T09:35:30Z",
+      "correlation_id": "b53b0754-5ddf-4b86-b526-f581dafe5288",
+      "actor": "action_executor",
+      "action_type": "action_failed",
+      "target": "ODOO_PAYMENT_TEMPLATE.md",
+      "result": "failure",
+      "parameters": {
+        "details": "Invoice ID 10 not found",
+        "dev_mode": false
+      }
+    },
+    {
+      "timestamp": "2026-03-10T09:36:03Z",
+      "correlation_id": "6996c543-8e41-4d3c-89ca-7f87f1e12b34",
+      "actor": "action_executor",
+      "action_type": "action_failed",
+      "target": "ODOO_PAYMENT_TEMPLATE.md",
+      "result": "failure",
+      "parameters": {
+        "details": "Invoice ID 10 not found",
+        "dev_mode": false
+      }
+    },
+    {
+      "timestamp": "2026-03-10T09:36:33Z",
+      "correlation_id": "aef011c7-39a7-4dad-bec2-e842fd0d5ac1",
+      "actor": "action_executor",
+      "action_type": "action_failed",
+      "target": "ODOO_PAYMENT_TEMPLATE.md",
+      "result": "failure",
+      "parameters": {
+        "details": "Invoice ID 10 not found",
+        "dev_mode": false
+      }
+    },
+    {
+      "timestamp": "2026-03-10T09:36:34Z",
+      "correlation_id": "b404ccfc-8909-43d3-8f76-6483bd26764f",
+      "actor": "whatsapp_watcher",
+      "action_type": "whatsapp_processed",
+      "target": "WHATSAPP_small-business-publicity-group_20260310T093634.md",
+      "result": "success",
+      "parameters": {
+        "chat_name": "Small Business Publicity Group",
+        "message_preview": "Price: 500/-\n\nDelivery: Free\n\nPayment: COD",
+        "priority": "high",
+        "matched_keyword": "payment",
+        "dry_run": false,
+        "dev_mode": false
+      }
+    },
+    {
+      "timestamp": "2026-03-10T09:37:04Z",
+      "correlation_id": "07f1134e-1a70-46a2-8e28-6c9ed796ef5b",
+      "actor": "action_executor",
+      "action_type": "action_failed",
+      "target": "ODOO_PAYMENT_TEMPLATE.md",
+      "result": "failure",
+      "parameters": {
+        "details": "Invoice ID 10 not found",
+        "dev_mode": false
+      }
+    },
+    {
+      "timestamp": "2026-03-10T09:37:35Z",
+      "correlation_id": "79dd6446-4bbe-457e-9ab0-1d6ea5c329a2",
+      "actor": "action_executor",
+      "action_type": "action_failed",
+      "target": "ODOO_PAYMENT_TEMPLATE.md",
+      "result": "failure",
+      "parameters": {
+        "details": "Invoice ID 10 not found",
+        "dev_mode": false
+      }
+    },
+    {
+      "timestamp": "2026-03-10T09:38:06Z",
+      "correlation_id": "4655b184-54c1-47c4-a74c-e5ae260acafa",
+      "actor": "action_executor",
+      "action_type": "action_failed",
+      "target": "ODOO_PAYMENT_TEMPLATE.md",
+      "result": "failure",
+      "parameters": {
+        "details": "Invoice ID 10 not found",
+        "dev_mode": false
+      }
+    },
+    {
+      "timestamp": "2026-03-10T09:38:37Z",
+      "correlation_id": "18c96985-794d-41d8-83b8-f3436dfaeca7",
+      "actor": "action_executor",
+      "action_type": "action_failed",
+      "target": "ODOO_PAYMENT_TEMPLATE.md",
+      "result": "failure",
+      "parameters": {
+        "details": "Invoice ID 10 not found",
+        "dev_mode": false
+      }
+    },
+    {
+      "timestamp": "2026-03-10T09:39:07Z",
+      "correlation_id": "93dab6ac-43de-48b2-b362-aa8728e89690",
+      "actor": "action_executor",
+      "action_type": "action_failed",
+      "target": "ODOO_PAYMENT_TEMPLATE.md",
+      "result": "failure",
+      "parameters": {
+        "details": "Invoice ID 8 not found",
+        "dev_mode": false
+      }
+    },
+    {
+      "timestamp": "2026-03-10T09:39:33Z",
+      "correlation_id": "71d94d7c-0236-4a8c-8bc5-9affb66e2a68",
+      "actor": "watchdog",
+      "action_type": "watcher_stop",
+      "target": "Gmail",
+      "result": "success",
+      "parameters": {
+        "restart_count": 0,
+        "max_restarts": 3,
+        "details": "Graceful shutdown"
+      }
+    },
+    {
+      "timestamp": "2026-03-10T09:39:33Z",
+      "correlation_id": "cc70b480-c197-4436-b9ce-3a18053a5f6a",
+      "actor": "watchdog",
+      "action_type": "watcher_stop",
+      "target": "VaultAction",
+      "result": "success",
+      "parameters": {
+        "restart_count": 0,
+        "max_restarts": 3,
+        "details": "Graceful shutdown"
+      }
+    },
+    {
+      "timestamp": "2026-03-10T09:39:33Z",
+      "correlation_id": "893571b7-1f4d-485c-8ee9-7b63f25cad6a",
+      "actor": "watchdog",
+      "action_type": "watcher_stop",
+      "target": "WhatsApp",
+      "result": "success",
+      "parameters": {
+        "restart_count": 0,
+        "max_restarts": 3,
+        "details": "Graceful shutdown"
+      }
+    },
+    {
+      "timestamp": "2026-03-10T09:39:33Z",
+      "correlation_id": "6c7ff25a-ebf4-4220-9c4b-58d999a0176f",
+      "actor": "watchdog",
+      "action_type": "watcher_stop",
+      "target": "LinkedIn",
+      "result": "success",
+      "parameters": {
+        "restart_count": 0,
+        "max_restarts": 3,
+        "details": "Graceful shutdown"
+      }
+    },
+    {
+      "timestamp": "2026-03-10T09:39:33Z",
+      "correlation_id": "3ab33edb-0ad1-4eba-a701-734c1a27b0cf",
+      "actor": "watchdog",
+      "action_type": "watcher_stop",
+      "target": "Facebook",
+      "result": "success",
+      "parameters": {
+        "restart_count": 0,
+        "max_restarts": 3,
+        "details": "Graceful shutdown"
+      }
+    },
+    {
+      "timestamp": "2026-03-10T09:39:33Z",
+      "correlation_id": "cc6d9649-5869-4d8e-b6b8-ede169563b43",
+      "actor": "watchdog",
+      "action_type": "watcher_stop",
+      "target": "Instagram",
+      "result": "success",
+      "parameters": {
+        "restart_count": 0,
+        "max_restarts": 3,
+        "details": "Graceful shutdown"
+      }
+    },
+    {
+      "timestamp": "2026-03-10T09:39:33Z",
+      "correlation_id": "f2604464-cce9-42eb-ab86-6f80c776f93a",
+      "actor": "watchdog",
+      "action_type": "watcher_stop",
+      "target": "Twitter",
+      "result": "success",
+      "parameters": {
+        "restart_count": 0,
+        "max_restarts": 3,
+        "details": "Graceful shutdown"
+      }
+    },
+    {
+      "timestamp": "2026-03-10T09:39:33Z",
+      "correlation_id": "1377d2ed-aa43-4f5e-870c-cccf06f01e3d",
+      "actor": "orchestrator",
+      "action_type": "orchestrator_stop",
+      "target": "orchestrator",
+      "result": "success",
+      "parameters": {
+        "details": "Graceful shutdown",
+        "dev_mode": false
+      }
+    }
+  ]
+}
